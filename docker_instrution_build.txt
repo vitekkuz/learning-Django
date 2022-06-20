@@ -1,3 +1,6 @@
+Взято с сайта:
+    https://fixmypc.ru/post/sozdanie-i-zapusk-konteinera-docker-s-django-postgressql-gunicorn-i-nginx/
+
 Выполним билд проекта (из папки 'project'), при котором создастся нужный контейнер:
 
     docker-compose build
@@ -9,4 +12,4 @@
 
 Проверим открывается ли страница по адресу 'http://localhost:8000/' или можем выполнить команду в командной строке:
 
-curl http://localhost:8000
+    curl http://localhost:8000
